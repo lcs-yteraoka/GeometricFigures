@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7CE8E25A2F3A6A4D00A9CAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE8E2562F3A6A4D00A9CAFE /* Assets.xcassets */; };
+		7CE8E25C2F3A6A4D00A9CAFE /* GeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8E2582F3A6A4D00A9CAFE /* GeometricFiguresApp.swift */; };
+		7CE8E25F2F3A6D8200A9CAFE /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8E25E2F3A6D8200A9CAFE /* CircleView.swift */; };
+		7CE8E2622F3A6FA500A9CAFE /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8E2612F3A6FA500A9CAFE /* Circle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7CE8E2482F3A693500A9CAFE /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE8E2562F3A6A4D00A9CAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE8E2582F3A6A4D00A9CAFE /* GeometricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFiguresApp.swift; sourceTree = "<group>"; };
+		7CE8E25E2F3A6D8200A9CAFE /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		7CE8E2612F3A6FA500A9CAFE /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7CE8E24A2F3A693500A9CAFE /* GeometricFigures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GeometricFigures;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7CE8E2452F3A693500A9CAFE /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		7CE8E23F2F3A693500A9CAFE = {
 			isa = PBXGroup;
 			children = (
-				7CE8E24A2F3A693500A9CAFE /* GeometricFigures */,
+				7CE8E2592F3A6A4D00A9CAFE /* GeometricFigures */,
 				7CE8E2492F3A693500A9CAFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				7CE8E2482F3A693500A9CAFE /* GeometricFigures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE8E2592F3A6A4D00A9CAFE /* GeometricFigures */ = {
+			isa = PBXGroup;
+			children = (
+				7CE8E2582F3A6A4D00A9CAFE /* GeometricFiguresApp.swift */,
+				7CE8E2602F3A6F0800A9CAFE /* Model */,
+				7CE8E25D2F3A6CED00A9CAFE /* Views */,
+				7CE8E2562F3A6A4D00A9CAFE /* Assets.xcassets */,
+			);
+			path = GeometricFigures;
+			sourceTree = "<group>";
+		};
+		7CE8E25D2F3A6CED00A9CAFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CE8E25E2F3A6D8200A9CAFE /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CE8E2602F3A6F0800A9CAFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CE8E2612F3A6FA500A9CAFE /* Circle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7CE8E24A2F3A693500A9CAFE /* GeometricFigures */,
 			);
 			name = GeometricFigures;
 			packageProductDependencies = (
@@ -109,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE8E25A2F3A6A4D00A9CAFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE8E25F2F3A6D8200A9CAFE /* CircleView.swift in Sources */,
+				7CE8E25C2F3A6A4D00A9CAFE /* GeometricFiguresApp.swift in Sources */,
+				7CE8E2622F3A6FA500A9CAFE /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
